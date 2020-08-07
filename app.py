@@ -11,17 +11,17 @@ from resources.usuario import User, UserRegister, UserLogin, UserLogout, UserCon
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///banco.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['JWT_SECRET_KEY'] = 'Carry_on_my_Wayward_son'
+app.config['JWT_SECRET_KEY'] = 'KEY-SECRET'
 app.config['JWT_BLACKLIST_ENABLED'] = True
 app.config['JWT_ACCESS_TOKEN_EXPIRES'] = False
 
 #Mail trap configutartion
-app.config['MAIL_SERVER']='smtp.mailtrap.io'
-app.config['MAIL_PORT'] = 2525
-app.config['MAIL_USERNAME'] = '1a190c92f96cd2'
-app.config['MAIL_PASSWORD'] = '155dc4a45842e7'
-app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USE_SSL'] = False
+app.config['MAIL_SERVER']=''
+app.config['MAIL_PORT'] = 
+app.config['MAIL_USERNAME'] = ''
+app.config['MAIL_PASSWORD'] = ''
+app.config['MAIL_USE_TLS'] = ''
+app.config['MAIL_USE_SSL'] = ''
 
 
 api = Api(app)
