@@ -17,7 +17,7 @@ app.config['JWT_ACCESS_TOKEN_EXPIRES'] = False
 
 #Mail trap configutartion
 app.config['MAIL_SERVER']=''
-app.config['MAIL_PORT'] = 
+app.config['MAIL_PORT'] = ''
 app.config['MAIL_USERNAME'] = ''
 app.config['MAIL_PASSWORD'] = ''
 app.config['MAIL_USE_TLS'] = ''
